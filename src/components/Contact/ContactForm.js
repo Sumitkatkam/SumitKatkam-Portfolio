@@ -14,7 +14,7 @@ const ContactForm = () => {
     >
       <div className="leading-loose">
         <form
-          action="https://getform.io/f/0a1c23a4-8e39-462b-9296-a3f7d0300731"
+          action="https://getform.io/f/bwnwmqwa"
           method="POST"
           className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl text-left"
         >

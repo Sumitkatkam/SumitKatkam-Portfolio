@@ -54,10 +54,10 @@ const ContactDetails = () => {
                 </th>
                 <td className="px-6 py-4">
                   <a
-                    href="mailto:himanshuchandolaofficial@gmail.com"
+                    href="mailto:sumitkatkam@gmail.com"
                     className="font-normal text-blue-700 dark:text-blue-400 dark:hover:text-blue-500 hover:text-blue-800 flex items-center"
                   >
-                    himanshuchandolaofficial@gmail.com{" "}
+                    sumitkatkam@gmail.com{" "}
                     <span className="ml-1">
                       <BiLinkExternal />
                     </span>
@@ -129,10 +129,12 @@ const ContactDetails = () => {
                 </th>
                 <td className="px-6 py-4">
                   <a
-                    href="https://www.linkedin.com/in/himanshuchandola/"
+                    href="https://www.linkedin.com/in/sumitkatkam-sk/"
+                    target="blank"
+                    rel="noopener noreferrer"
                     className="font-normal text-blue-700 dark:text-blue-400 dark:hover:text-blue-500 hover:text-blue-800  flex items-center"
                   >
-                    linkedin.com/in/himanshuchandola
+                    linkedin.com/in/sumitkatkam
                     <span className="ml-1">
                       <BiLinkExternal />
                     </span>
@@ -149,10 +151,12 @@ const ContactDetails = () => {
                 </th>
                 <td className="px-6 py-4">
                   <a
-                    href="https://github.com/himanshuchandola"
+                    href="https://github.com/Sumitkatkam"
+                    target="blank"
+                    rel="noopener noreferrer"
                     className="font-normal text-blue-700 dark:text-blue-400 dark:hover:text-blue-500 hover:text-blue-800  flex items-center"
                   >
-                    github.com/himanshuchandola
+                    github.com/sumitkatkam
                     <span className="ml-1">
                       <BiLinkExternal />
                     </span>

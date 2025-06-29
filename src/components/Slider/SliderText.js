@@ -6,7 +6,7 @@ const sliderVariants = {
     x: 0,
   },
   animate: {
-    x: "-450%",
+    x: "-900%",
     transition: {
       repeat: Infinity,
       repeatType: "mirror",
@@ -23,7 +23,7 @@ const Hero = () => {
       initial="initial"
       animate="animate"
     >
-      Frontend Developer
+      Software Developer | Data Analyst 
     </motion.div>
   );
 };

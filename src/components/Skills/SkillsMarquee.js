@@ -4,8 +4,8 @@ import javascript from "../../assets/yellow/javascripty.png";
 import nextjs from "../../assets/yellow/nexty.png";
 import redux from "../../assets/yellow/reduxy.png";
 import css3 from "../../assets/yellow/css3y.png";
-
 import git from "../../assets/yellow/gity.png";
+import powerbi from "../../assets/yellow/powerbiy.png";
 
 const skillsData = [
   {
@@ -39,6 +39,12 @@ const skillsData = [
     id: 6,
     image: git,
     title: "Git",
+  },
+
+  {
+    id: 7,
+    image: powerbi,
+    title: "Power BI",
   },
 ];
 

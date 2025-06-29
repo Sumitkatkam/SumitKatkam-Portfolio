@@ -14,7 +14,7 @@ const About = () => {
     <Section
       id="about"
       title="Overview"
-      subtitle="Frontend Web Developer"
+      subtitle="Software Developer | Data Analyst"
       className="relative"
     >
       <img
@@ -44,12 +44,10 @@ const About = () => {
           </h4>
           <div className="bg-white dark:bg-[#101111] p-5 rounded-3xl shadow-lg shadow-gray-400/50 dark:shadow-black/30 ">
             <p className="text-base font-light">
-              Hi, I am <span className="font-semibold">Himanshu Chandola</span>{" "}
-              I am a{" "}
-              <span className="font-semibold">Frontend Web Developer</span>. I
-              am proficient in ReactJS. I am looking for new opportunities to
-              implement and increase my skills in software development and web
-              development.
+              Hi, I am <span className="font-semibold">Sumit Katkam</span>{" "}
+              I am an aspiring{" "}
+              <span className="font-semibold">Sofwatre Developer and Data Analyst</span>. I
+              with a passion for building intelligent, scalable web applications and deriving actionable insights from data. I bring a hybrid skill set that combines strong backend/frontend development experience with data analytics proficiency.
             </p>
           </div>
 
@@ -63,18 +61,8 @@ const About = () => {
                 <HiOutlineBuildingOffice className="h-5 w-5 text-white" />
               </div>
             }
-            title="Feb 2024 - Current"
-            desc="Frontend Developer at Exiliensoft Consulting Services."
-          />
-
-          <FeaturedCard
-            icon={
-              <div className="rounded-xl bg-amber-400 p-3.5 dark:bg-amber-400">
-                <HiOutlineBuildingOffice className="h-5 w-5 text-white" />
-              </div>
-            }
-            title="June 2022 - Jan 2024"
-            desc="Software Developer at Source Soft Solutions Pvt. Ltd."
+            title="June 2025 - Current"
+            desc="Data Analyst Intern at Diatrends Jewellery Pvt. Ltd."
           />
 
           <h4 className="text-2xl font-medium text-amber-600 dark:text-amber-300">
@@ -87,8 +75,8 @@ const About = () => {
                 <FaGraduationCap className="h-5 w-5 text-white" />
               </div>
             }
-            title="August 2020 - June 2022"
-            desc="MCA ( Master of Computer Applications ) from Graphic Era Hill University."
+            title="August 2021 - May 2025"
+            desc={`B-Tech - Information Technology from A. C. Patil College of Engineering, Navi Mumbai.\nCGPA: 8.33`}
           />
         </motion.div>
       </motion.div>

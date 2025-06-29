@@ -57,7 +57,7 @@ export default function ProfileMenu() {
               Projects
             </Link>
           </li>
-          <li>
+          <li className="border-b dark:border-white/5 border-black/5">
             <Link
               to="contact"
               smooth={true}
@@ -68,6 +68,17 @@ export default function ProfileMenu() {
             >
               Contact
             </Link>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1K_zA7x-_0KQSLHIU_cZ6dNMYepGhaQ0Y/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(!open)}
+              className="cursor-pointer flex w-full items-center px-3 py-2 text-sm hover:bg-white dark:hover:bg-neutral-800"
+            >
+              Resume
+            </a>
           </li>
         </ul>
       </div>

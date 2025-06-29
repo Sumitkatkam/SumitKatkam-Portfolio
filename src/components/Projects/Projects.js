@@ -5,39 +5,38 @@ import Featured from "./Featured";
 import Section from "../Common/Section";
 import ProjectCard from "./ProjectCard";
 import RightSvg from "../../assets/svg/right-pattern.svg";
+import mapmytrip from "../../images/mapmytrip.jpg"
+import bookify from "../../images/work12.jpg"
+import codegrow from "../../images/codegrow.jpg"
 
 export const projectsData = [
   {
     id: 1,
-    thumbnail: "https://i.imgur.com/UEqATGm.jpeg",
-    title: "E-Paper Amar Ujala ",
-    description: "Amar Ujala Hindi E-Newspaper with all available cities.",
-    live: "https://epaper-amar-ujala-hindi.netlify.app/",
-    code: "https://github.com/himanshuchandola/Amar-Ujala-E-Paper",
-    tech: ["React.js"],
+    thumbnail: mapmytrip,
+    title: "MapMyTrip",
+    description: "MapMyTrip uses the Gemini AI model to optimize travel routes and provide intelligent recommendations. It integrates Google APIs for real-time destination data, images, and secure Google login for personalized planning.",
+    live: "https://map-my-trip.vercel.app/",
+    code: "https://github.com/Sumitkatkam/MapMyTrip",
+    tech: ["React+Vite, Tailwind CSS, Shadcn/ui, Gemini AI Model, Firebase, Google Place and Photos API"],
     featured: false,
   },
   {
     id: 2,
-    thumbnail: "https://i.imgur.com/GzAhqVA.png",
-    title: "Track My Expenses ",
-    description:
-      "Track My Expenses is a web app that helps to manage your personal Expenses with beautiful utilities like charts and calculative paying of dues.",
-    live: "https://track-my-expenses-4th-sem-project-gehu.netlify.app/",
-    code: "https://github.com/himanshuchandola/Track-My-Expenses",
-    tech: ["React.js"],
+    thumbnail: bookify,
+    title: "Bookify Store",
+    description: "Bookify Store is a responsive e-commerce web app built with React, Vite, and Redux for smooth browsing and checkout. It features dynamic book listings, cart management, and user-friendly UI for an enhanced shopping experience.",
+    live: "https://bookify-store-frontend.vercel.app/",
+    code: "https://github.com/Sumitkatkam/bookify-store-frontend",
+    tech: ["React+Vite, Tailwind CSS, MongoDB, Node.js, Redux, Firebase"],
     featured: false,
   },
   {
     id: 3,
-    thumbnail:
-      "https://raw.githubusercontent.com/himanshuchandola/E-Voting-Web-System/main/readme%20images/image-007.jpg",
-    title: "Matdaan - E-Voting System ",
-    description:
-      "A Interactive Way To Solve Conventional Voting via E-Voting. ",
-    live: "https://github.com/himanshuchandola/E-Voting-Web-System",
-    code: "https://github.com/himanshuchandola/E-Voting-Web-System",
-    tech: ["HTMl5, PHP, CSS3, Bootstrap, MySQL"],
+    thumbnail: codegrow,
+    title: "Code Grow",
+    description: "An AI-powered collaborative coding platform built with React, Node.js, and Socket.io, featuring real-time interaction, responsive UI, and session-based challenge sharing.",
+    code: "https://github.com/Sumitkatkam/Code-Grow",
+    tech: ["React, Node.js, Socket.io"],
     featured: false,
   },
 ];
@@ -94,7 +93,9 @@ const Projects = () => {
       <span>
         For More Projects and Other work visit my{" "}
         <a
-          href="https://github.com/himanshuchandola?tab=repositories&q=&type=source&language=&sort="
+          href="https://github.com/Sumitkatkam?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{ fontWeight: "bold", color: "red" }}
         >
           GitHub
